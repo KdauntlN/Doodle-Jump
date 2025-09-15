@@ -10,16 +10,16 @@ Note that this is an unsigned binary and will likely be flagged by Windows Smart
 To build this project from source, the only prerequisite you need is CMake and a C compiler such as GCC or Clang.\
 \
 The first step is to clone the repository:
-```ps
+```bash
 git clone --recurse-submodules https://github.com/kdauntln/doodle-jump.git
 ```
 Then create a ```build\``` directory for CMake
-```ps
+```bash
 mkdir build
 cd build
 ```
 Then run CMake to build the executable and run it
-```ps
+```bash
 cmake ..
 cmake --build .
 ./debug/doodle-jump.exe
