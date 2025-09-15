@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(SKYBOUND C)
+project(DOODLE_JUMP C)
 
 add_subdirectory(raylib)
 
@@ -8,6 +8,6 @@ set(SOURCES
     src/player.c    
 )
 
-add_executable(Skybound ${SOURCES})
+add_executable(Doodle_Jump ${SOURCES})
 
-target_link_libraries(Skybound PRIVATE raylib)
+target_link_libraries(Doodle_Jump PRIVATE raylib)
