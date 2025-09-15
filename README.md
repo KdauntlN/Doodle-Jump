@@ -1,2 +1,5 @@
 # Doodle Jump
-blah blah blah
+A recreation of the classic game Doodle Jump
+Dm for features
+
+## Installation
